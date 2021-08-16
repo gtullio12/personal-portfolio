@@ -1,0 +1,106 @@
+@import url('https://rsms.me/inter/inter.css');
+
+body {
+    background-color: black;
+}
+
+.topnav {
+    background-image: url('images/top.png');
+    position:absolute;
+    width: 100%;
+    height: 100px;
+    top: -10px;
+}
+
+#top-left {
+    display: inline;
+    float: right;
+    padding-top:20px;
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+#top-left a {
+    padding: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    color: #FFFBFB;
+    line-height: 44px;
+}
+
+#home {
+    position: absolute;
+    width: 107px;
+    height: 44px;
+    padding-top:20px;
+    padding-left:20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFBFB;
+}
+
+a:link { text-decoration: none; }
+
+#about {
+    padding-top:100px;
+}
+
+#description {
+    float: center;
+    padding:20px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#about div img {
+    width: 363px;
+    height: 303px;
+}
+
+#activities {
+    display:flex;
+    float: center;
+    padding:20px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow-x:hidden;
+    word-break: break-word;
+}
+
+#recent div img {
+    width: 300px;
+    height: 187px;
+}
+
+h1 {
+    color:white;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+p {
+    width: 341px;
+    height: 178px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
